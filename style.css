@@ -1,0 +1,90 @@
+.jumbotron{
+    background-image: url(jumbotron.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.display-4{
+    color: white;
+    font-weight: bolder;
+}
+
+/* Bagian 2 */
+.design img{
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+    margin-top: 20px;
+}
+.h1pertama{
+    font-weight: bold;
+    text-align: center;
+}
+.h2pertama{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+.test{
+    background-image: url(jumbotron.png);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.test h1{
+    font-weight: bold;
+}
+.testi img{
+    width: 150px;
+    height: 150px;
+    margin-left: 45px;
+}
+
+.testimonial{
+    margin-top: 1300px;
+}
+.changer{
+    background-image: url(jumbotron.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.kelas h1{
+    padding-top: 150px;
+}
+
+
+
+@media(min-width:992px){
+
+    .design img{
+        width: 400px;
+        height: 400px;
+        border-radius: 200px;
+    }
+    .h1pertama{
+        font-weight: bold;
+    }
+    .h2pertama{
+        color: red;
+        font-weight: bold;
+    }
+    .testi img{
+        width: 250px;
+        height: 250px;
+        margin-left: 45px;
+    }
+
+    .testimonial{
+        margin-top: 200px;
+    }
+
+    .footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+}
